@@ -1,4 +1,4 @@
-import javax.swing.*;
+impimport javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
@@ -108,9 +108,8 @@ public class Frame2 extends JFrame {
 //        ---------------亂數炸彈
                         int a = (int) (Math.random() * 10);
                         int b = (int) (Math.random() * 10);
-                        for (int i = 0; i <= bombCount; i++) {
+                        for (int i=0; i <= bombCount; i++) {
                             jbtnbomb[a][b] = new JButton();
-
                             count = 1;
                         }
 
@@ -134,10 +133,11 @@ public class Frame2 extends JFrame {
                                 break;
                             case 1:
                                 jbtn[a][b].setBackground(Color.BLUE);
-                                System.out.println(jbtn[a][b]);
+                                    System.out.println(jbtn[a][b]);
 //                                Frame3 frm1 = new Frame3();
 //                                frm1.setVisible(true);
 //                                Frame2.this.setVisible(false);
+
                         }
                     }
                 });
