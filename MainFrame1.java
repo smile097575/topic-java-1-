@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class MainDL extends JFrame {
+public class MainFrame1 extends JFrame {
     private JButton jbtn = new JButton("登入");
     private JButton jbtn1 = new JButton("退出");
     private JTextField jtf = new JTextField();
