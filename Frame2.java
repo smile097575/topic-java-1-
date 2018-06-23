@@ -96,7 +96,10 @@ public class Frame2 extends JFrame {
                                 }
                             }
                         }
-                        jbtnbomb[idI][idJ] = 1;
+
+                            jbtnbomb[idI][idJ] = 1;
+
+
 
 //        ---------------亂數炸彈
 
@@ -145,4 +148,3 @@ public class Frame2 extends JFrame {
 
 
 }
-
